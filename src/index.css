@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+#titulo1, #titulo2{
+  color: white;
+}
+
+.cartao{
+  height: 150px;
+  width: 150px;
+  padding-bottom: 10px;
+}
+
+img{
+  position: relative;
+  border-radius: 10px;
+}
+
+img:hover {
+  background-color: opacity 0.5 transparent;
 }
